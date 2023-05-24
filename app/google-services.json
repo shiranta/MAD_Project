@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "12209794130",
+    "firebase_url": "https://drivago-cf037.firebaseio.com",
+    "project_id": "drivago-cf037",
+    "storage_bucket": "drivago-cf037.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12209794130:android:f74c57d47db0d64f8d038b",
+        "android_client_info": {
+          "package_name": "com.example.myapplication.drivago"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12209794130-n80pn8v3cah2a214tacb9ajmt2n25pc1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication.drivago",
+            "certificate_hash": "e79b3cc0928f690a982c8e7d673cfd8e22c99853"
+          }
+        },
+        {
+          "client_id": "12209794130-god69p6ku3fqo25vqvcuu019afhts0j6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEfTJ_JNXzPzLpC37fWZBlG59RTWKAKOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12209794130-god69p6ku3fqo25vqvcuu019afhts0j6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

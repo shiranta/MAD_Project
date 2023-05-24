@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication.drivago"
+    android:installLocation="preferExternal" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".HomeSign" >
+        </activity>
+        <activity android:name=".studentHome" />
+        <activity android:name=".redirect" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".tipAdd" />
+        <activity android:name=".tip" />
+        <activity android:name=".category" />
+        <activity android:name=".vehi_add" />
+        <activity android:name=".teacherAdd" />
+        <activity android:name=".addSign" />
+        <activity android:name=".editSign" />
+        <activity android:name=".sign_info" />
+        <activity android:name=".signs_mand" />
+        <activity android:name=".teacherN" />
+        <activity android:name=".addTeacher" />
+        <activity android:name=".Home" />
+        <activity android:name=".Available" />
+        <activity android:name=".Addnewcard" />
+        <activity android:name=".Card" />
+        <activity android:name=".HomeActivityLearners" />
+        <activity android:name=".DashboardActivityLearners" />
+        <activity android:name=".LoginActivityLearners" />
+        <activity android:name=".signupLearners" />
+        <activity android:name=".paymentMain" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".settings" />
+        <activity android:name=".Question" />
+        <activity android:name=".TeacherHome" /> <!-- IT19047102 Sivashankar -->
+        <activity android:name=".stdDetails" />
+        <activity
+            android:name=".splash"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

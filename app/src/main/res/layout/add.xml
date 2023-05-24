@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_gravity="center"
+    android:layout_margin="15sp"
+    android:layout_marginHorizontal="20sp"
+    android:elevation="15sp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Question"
+            android:textColor="@android:color/white"
+            android:textSize="25sp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/close_btn"
+            android:layout_width="41dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="94dp"
+            android:layout_marginRight="94dp"
+
+            android:background="@android:drawable/ic_input_delete">
+
+        </Button>
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/ed_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:hint="@string/enterquestiontitle"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:padding="15sp"
+        android:background="@color/colorAccent">
+
+
+
+
+    </EditText>
+<Button
+    android:id="@+id/btn_add"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:textColor="@android:color/white"
+    android:layout_gravity="end"
+    android:layout_margin="15dp"
+    android:text="@string/add"
+    tools:ignore="InvalidId">
+
+</Button>
+</LinearLayout>

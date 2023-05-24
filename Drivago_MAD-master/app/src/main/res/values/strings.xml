@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">MAD1</string>
+    <string name="user">Username</string>
+    <string name="pass">Password</string>
+    <string name="tName">NAME</string>
+    <string name="tAdd">ADDRESS</string>
+    <string name="tNum">CONTACT NUMBER</string>
+    <string name="tCar">VEHICLE TYPE</string>
+    <string name="tPlate">NUMBER PLATE</string>
+    <string name="sName">NAME</string>
+    <string name="sDescription">DESCRIPTION</string>
+    <string name="users">Total Users</string>
+    <string name="nikita">NIKITA FERNANO</string>
+    <string name="sign">Signs</string>
+    <string name="tip">Driving Tips</string>
+    <string name="vehicle">Vehicle</string>
+    <string name="tab_text_1">Home</string>
+    <string name="tab_text_2">Question</string>
+    <string name="tab_text_3">Settings</string>
+    <string name="ques">No of Questions</string>
+    <string name="studs">No of students</string>
+    <string name="pay">Payment</string>
+    <string name="Feedb">Feedback</string>
+    <string name="teachername">Lucy Lee</string>
+    <string name="edit">Edit profile</string>
+    <string name="out">Signout</string>
+    <string name="add">Add</string>
+    <string name="helo">helo</string>
+    <string name="enterquestiontitle">Enter question Title</string>
+    <string name="new_note">new note</string>
+    <string name="_250">250</string>
+    <string name="DRIVAGO">DRIVAGO</string>
+    <string name="student_details">STUDENT DETAILS</string>
+    <string name="id">Student ID</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="Telephone_No">Telephone No</string>
+    <string name="vehical">Vehical</string>
+    <string name="addStudent">Add</string>
+    <string name="Delete">DELETE</string>
+    <string name="retrive">RETRIVE</string>
+    <string name="display">Display</string>
+    <string name="update">UPDATE</string>
+    <string name="stdprofiule">STUDENT PROFILE</string>
+    <string name="nic">National ID</string>
+    <string name="Note">NOTE: To Add,Update and delete data, You want to enter your NIC</string>
+    <string name="note1" />
+    <string name="note2">NOTE: ADD NIC TO DISPLAY DATA</string>
+    <string name="method1">Card</string>
+    <string name="method2">Cash</string>
+    <string name="history">View history</string>
+    <string name="namepay">Name on card</string>
+    <string name="No">Card number</string>
+    <string name="validdate">Expiry date</string>
+    <string name="cvv">CVV</string>
+    <string name="card">Show card</string>
+    <string name="save">Save changes</string>
+    <string name="addpay">Add card</string>
+    <string name="deletepay">Delete card</string>
+    <string name="emaillearners">Email</string>
+    <string name="passwordlearners">Password</string>
+    <string name="signinlearners">Sign in</string>
+    <string name="signuplearners">Sign up</string>
+    <string name="namelearners">Name</string>
+    <string name="reenterlearners">Re-enter password</string>
+    <string name="Lightlearners">Light vehicle</string>
+    <string name="Heavylearners">Heavy vehicle</string>
+    <string name="nolearners">License No</string>
+    <string name="validlearners">Expiry date</string>
+    <string name="stu">Learner</string>
+    <string name="tea"> Teacher</string>
+    <string name="admin">Admin</string>
+    <string name="details">Student Details</string>
+    <string name="testcal">Calculate your Fee</string>
+    <string name="next">NEXT</string>
+    <string name="age_cat">Age catagary</string>
+    <string name="age_30">Age is grater than 30 =$2000</string>
+    <string name="ageless30">Age less than 30=$1000</string>
+    <string name="feecal">Fee Calculator</string>
+    <string name="vehical_cal">Vehical fee</string>
+    <string name="carfee">Car=$100</string>
+    <string name="busfee">Bus=$200</string>
+    <string name="bikefee">Bike=$50</string>
+    <string name="tot">$</string>
+
+</resources>

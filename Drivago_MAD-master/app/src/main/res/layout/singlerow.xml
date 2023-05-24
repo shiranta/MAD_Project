@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:elevation="5dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="15sp">
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/nametext"
+            android:fontFamily="@font/poppins"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_toRightOf="@+id/img1"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/contact"
+            android:text="This is email"
+            android:fontFamily="@font/poppins_light"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            android:layout_toRightOf="@+id/img1"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/nametext"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/noplate"
+
+            android:fontFamily="@font/poppins_light"
+            android:textSize="17sp"
+            android:textColor="@android:color/black"
+            android:layout_toRightOf="@+id/img1"
+            android:layout_below="@id/contact"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/notype"
+            android:text="This is mobile no"
+            android:fontFamily="@font/poppins_light"
+            android:textSize="17sp"
+            android:textColor="@android:color/black"
+            android:layout_toRightOf="@+id/img1"
+            android:layout_below="@id/noplate"
+            android:layout_marginLeft="20dp"/>
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="84dp"
+            android:layout_height="38dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="201dp"
+            android:layout_marginTop="38dp"
+            android:layout_marginEnd="48dp"
+            android:layout_toEndOf="@+id/img1"
+            android:background="@drawable/button"
+            android:fontFamily="@font/poppins"
+
+            android:text="Delete" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
